@@ -1,8 +1,8 @@
 {
-  "name": "css-modular-loader",
-  "version": "0.0.1",
+  "name": "webpack-css-modular-loader",
+  "version": "0.0.2",
   "author": "Vinicius Pacheco Furtado vin175pacheco@gmail.com",
-  "main": "lib/loader.js",
+  "main": "build/loader.js",
   "keywords": [
     "webpack",
     "css",
