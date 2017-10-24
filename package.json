@@ -1,6 +1,6 @@
 {
   "name": "webpack-css-modular-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Vinicius Pacheco Furtado vin175pacheco@gmail.com",
   "main": "build/loader.js",
   "keywords": [
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:vinpac/css-modular-loader.git"
+    "url": "git@github.com:vinpac/webpack-css-modular-loader.git"
   },
   "license": "MIT",
   "dependencies": {
