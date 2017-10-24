@@ -1,0 +1,54 @@
+{
+  "name": "css-modular-loader",
+  "version": "0.0.1",
+  "author": "Vinicius Pacheco Furtado vin175pacheco@gmail.com",
+  "main": "lib/loader.js",
+  "keywords": [
+    "webpack",
+    "css",
+    "postcss-plugin",
+    "modular",
+    "css modular",
+    "loader"
+  ],
+  "engines": {
+    "node": ">=0.12.0 || >=4.3.0 <5.0.0 || >=5.10"
+  },
+  "files": [
+    "build",
+    "locals.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vinpac/css-modular-loader.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cssnano": "^3.10.0",
+    "loader-utils": "^1.1.0",
+    "postcss": "^6.0.13",
+    "postcss-modular": "^0.0.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^21.2.1",
+    "prettier": "^1.7.4",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "pretest": "$(npm bin)/eslint lib test",
+    "test": "$(npm bin)/jest",
+    "transpile": "$(npm bin)/babel lib -d build",
+    "prepublish": "npm run transpile",
+    "postpublish": "rm -rf build && git push origin master --follow-tags"
+  },
+  "require": "babel-core/register"
+}
