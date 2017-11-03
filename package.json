@@ -1,6 +1,6 @@
 {
   "name": "modular-css-loader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Vinicius Pacheco Furtado vin175pacheco@gmail.com",
   "main": "build/loader.js",
   "keywords": [
@@ -44,6 +44,7 @@
     "webpack": "^3.8.1"
   },
   "scripts": {
+    "pretest": "$(npm bin)/eslint lib test",
     "test": "$(npm bin)/jest",
     "transpile": "$(npm bin)/babel lib -d build",
     "prepublish": "npm run transpile",
