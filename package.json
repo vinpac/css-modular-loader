@@ -1,6 +1,6 @@
 {
-  "name": "css-modular-loader",
-  "version": "0.0.1",
+  "name": "modular-css-loader",
+  "version": "0.0.5",
   "author": "Vinicius Pacheco Furtado vin175pacheco@gmail.com",
   "main": "build/loader.js",
   "keywords": [
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:vinpac/webpack-css-modular-loader.git"
+    "url": "git@github.com:vinpac/webpack-modular-css-loader.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -44,7 +44,6 @@
     "webpack": "^3.8.1"
   },
   "scripts": {
-    "pretest": "$(npm bin)/eslint lib test",
     "test": "$(npm bin)/jest",
     "transpile": "$(npm bin)/babel lib -d build",
     "prepublish": "npm run transpile",
