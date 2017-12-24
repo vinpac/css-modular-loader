@@ -11,7 +11,7 @@ export function runLoader(loader, input, map, options, callback) {
     resource: 'test.css',
     resourcePath: 'test.css',
     request: 'css-loader!test.css',
-    emitError: (message) => { throw new Error(message) }
+    emitError: message => { throw new Error(message) }
   }, input, map)
 }
 

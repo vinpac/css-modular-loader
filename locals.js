@@ -1,1 +1,1 @@
-module.exports = require('./build/localsLoader');
+module.exports = require('./dist/localsLoader');

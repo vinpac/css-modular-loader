@@ -14,13 +14,9 @@
     "comma-dangle": ["error", "never"],
     "max-len": [2, 100, 4],
     "quotes": [2, "single"],
-
-    // Not supporting nested package.json yet
-    // https://github.com/benmosher/eslint-plugin-import/issues/458
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
     "import/no-extraneous-dependencies": "off",
 
-    // Recommend not to leave any console.log in your code
-    // Use console.error, console.warn and console.info instead
     "no-console": [
       "error",
       {
