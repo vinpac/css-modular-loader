@@ -8,7 +8,7 @@ describe('Loader', () => {
       { sourceMap: true },
     ).then(result => expect(result).toEqual(`
 exports = module.exports = [];
-exports.push([module.i, "._home-asd_ddk2k_1 {\\n\\tcolor: #333; background: url(\\" + require(\\"./image.png\\") + \\");\\n}\\n"]);
+exports.push([module.i, "._home-asd_ddk2k_1 {\\n\\tcolor: #333; background: url(" + require("./image.png") + ");\\n}\\n"]);
 exports.locals = {"home-asd":"_home-asd_ddk2k_1"};`.trim()))
   })
 })
