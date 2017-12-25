@@ -1,6 +1,6 @@
 {
   "name": "modular-css-loader",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "author": "Vinicius Pacheco Furtado vin175pacheco@gmail.com",
   "main": "dist/loader.js",
   "keywords": [
