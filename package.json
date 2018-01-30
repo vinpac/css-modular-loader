@@ -1,6 +1,6 @@
 {
   "name": "modular-css-loader",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "author": "Vinicius Pacheco Furtado vin175pacheco@gmail.com",
   "main": "dist/loader.js",
   "keywords": [
@@ -28,7 +28,7 @@
     "cssnano": "^3.10.0",
     "loader-utils": "^1.1.0",
     "postcss": "^6.0.13",
-    "postcss-modular": "^0.0.4"
+    "postcss-modular": "^0.0.6"
   },
   "devDependencies": {
     "babel": "^6.23.0",
