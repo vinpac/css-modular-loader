@@ -3,7 +3,7 @@ import { parse } from './helpers'
 describe('Loader', () => {
   it('should work', async () => {
     await parse(
-      ':import { a: \'./Components/a\'; } .home-asd {\n\tcolor: #333; background: url(\'./image.png\');\n}\n',
+      ':import { a: \'Fix/test\'; } .home-asd {\n\tcolor: #333; background: url(\'./image.png\');\n}\n',
       null,
       { sourceMap: true },
     ).then(result => expect(result).toEqual(`

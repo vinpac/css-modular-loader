@@ -1,3 +1,4 @@
+import path from 'path'
 import cssModularLoader from '../lib/loader'
 
 export function runLoader(loader, input, map, options, callback) {
@@ -9,7 +10,7 @@ export function runLoader(loader, input, map, options, callback) {
         {
           resolve: {
             alias: {
-              Components: '/home/Components',
+              Fix: path.resolve(__dirname, 'fixtures'),
             },
           },
           context: '',

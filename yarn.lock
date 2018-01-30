@@ -3511,9 +3511,9 @@ postcss-minify-selectors@^2.0.4:
     postcss "^5.0.14"
     postcss-selector-parser "^2.0.0"
 
-postcss-modular@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/postcss-modular/-/postcss-modular-0.0.6.tgz#cd7354af1fd55af4cb476e9f0d6fd7b448df002c"
+postcss-modular@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/postcss-modular/-/postcss-modular-0.0.9.tgz#7cbdc1f631da7c6b7a8c9576452b42266ca3e512"
   dependencies:
     has "^1.0.1"
     postcss "^6.0.13"
